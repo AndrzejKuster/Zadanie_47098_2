@@ -1,0 +1,39 @@
+.wrapper {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #111;
+    transition: 0.3s background-color;
+}
+
+input:hover {
+    background-color: beige;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+}
+
+button.submit {
+    padding: 10px;
+    border: 1px solid #111;
+    background-color: darkslateblue;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+}
+
+button.submit:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+ul.errors > li {
+    color: red;
+}
